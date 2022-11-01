@@ -11,5 +11,5 @@ president_list = []
 
 for president in json_data:
     president_list.append(json_data['RelatedTopics'])
-# I have no idea why RelatedTopics is blank, it also show up on the website as blank when you inspect element
+# I have no idea why RelatedTopics list is blank, it also show up on the website as blank when you inspect element
 print(president_list)

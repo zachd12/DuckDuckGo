@@ -10,6 +10,6 @@ json_data = response.json()
 president_list = []
 
 for president in json_data:
-    print(json_data['RelatedTopics'])
-
-#print(president_list)
+    president_list.append(json_data['RelatedTopics'])
+# I have no idea RelatedTopics is blank it also show up on the website as blank when you inspect element
+print(president_list)
